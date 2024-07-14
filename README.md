@@ -48,7 +48,7 @@ Probably for in-game events (like the Mob Vote)
 ## `acceptRealmInvite?inviteID=<realm invite code: string>`
 Accepts a Realms invite code
 
-## `connectToRealm? (realmId=<realm id: string> OR inviteID=<realm invite code: string>)`
+## `connectToRealm?realmId=<realm id: string> OR inviteID=<realm invite code: string>`
 Connects to a Realm
 
 ## `?slashcommand=<command: string>`
