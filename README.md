@@ -4,8 +4,8 @@ All of these links were gathered by reverse engineering the latest Windows clien
 ## `?showHowToPlayScreen=1`
 Shows the how to play screen
 
-## `oculus_launched <unknown>`
-Seems like this one shows a toast and then sets the input state to VR
+## `oculus_launched <no arguments>`
+A shortcut to the game for Oculus (VR) users
 
 ## `?addExternalServer=<server name: string>|<ip: string>:<port: number>`
 Adds an external server to the server list
@@ -76,7 +76,13 @@ Imports an addon
 Imports a world template
 
 ## `?load=<local level id: string>`
-Loads a local world
+Connects to a local world by its locally stored ID
 
-## `connect <many arguments>`
-Connects to a local or online world
+## `connect/?<many arguments>`
+Connects to a local or online world. Possible arguments are as follows:
+
+### `localLevelId=<local level id: string>`
+Acts similarly to `?load`
+
+### `localWorld=<world name: string>`
+Connects to a world by its name
