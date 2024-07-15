@@ -52,7 +52,7 @@ Accepts a Realms invite code
 Connects to a Realm
 
 ## `?slashcommand=<command: string>`
-Executes a command in the current world
+Executes a command in the current server. This will disconnect the user if used in a local world.
 
 ## `fromtempfile`
 Seems to be unused
