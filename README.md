@@ -86,3 +86,9 @@ Acts similarly to `?load`
 
 ### `localWorld=<world name: string>`
 Connects to a world by its name
+
+### `serverUrl=<ip: string>`
+Address of the server to connect to. If `?serverPort` is not specified, it will be 19132.
+
+### `serverPort=<port: number>`
+Port of the server to connect to. Must be used with `?serverUrl`
