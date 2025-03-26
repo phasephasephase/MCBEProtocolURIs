@@ -62,9 +62,9 @@ Shows a cosmetic item in the dressing room
 
 Opens the dressing room
 
-## `joinGathering?gatheringId=<unknown: string>`
+## `joinGathering?gatheringId=<gathering: UUID>`
 
-Probably for in-game events (like the Mob Vote)
+Opens the landing page for an in-game event, like A Minecraft Movie Live Event (14f1b190-df76-42b9-9f96-ff8fc47fff20)
 
 ## `acceptRealmInvite?inviteID=<realm invite code: string>`
 
